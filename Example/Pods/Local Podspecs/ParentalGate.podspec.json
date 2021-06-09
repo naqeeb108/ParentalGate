@@ -1,0 +1,22 @@
+{
+  "name": "ParentalGate",
+  "version": "0.1.0",
+  "summary": "A short description of ParentalGate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/naqeeb108/ParentalGate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "naqeeb108": "naqeeb@codesorbit.com"
+  },
+  "source": {
+    "git": "https://github.com/naqeeb108/ParentalGate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ParentalGate/Classes/**/*"
+}

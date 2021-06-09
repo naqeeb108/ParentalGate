@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C4D5173E973321D221B0C43463F574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0B04C73B371E17B0080F638789060100 /* Pods-ParentalGate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460A5A078EFDECF55A0EBEB54011763 /* Pods-ParentalGate_Example-dummy.m */; };
+		3776DB6FA026141351D978BCD36F2949 /* Pods-ParentalGate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 838374E15B194A2A32C76CDAB79A1F45 /* Pods-ParentalGate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40961979CD69CAC8713126CE08F1438D /* Pods-ParentalGate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F506477CBCC02B18DDC750BDDBFFC578 /* Pods-ParentalGate_Tests-dummy.m */; };
+		4F236DD33278D64D5410ADA2D4B3C9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50C865C1B07BD0DC12C6C7610B28449E /* ParentalGate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FA0E03AF604DB7B6A0CD1C21A11FEF /* ParentalGate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B4AF5B7DA008021D5572F0B11013FC /* Pods-ParentalGate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C212BD97DA2774119AB399E8AE6B820 /* Pods-ParentalGate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86AFD30544DA35B6614253DCDF5E0C5C /* ParentalGate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BB83DA4EDC4642D4A39A899FBECAC /* ParentalGate-dummy.m */; };
+		DD3C788C1BA60677CCD62389419F1483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229F5FA386E69C3D1F6AAE28F8C3D378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AEACF7C61194180A2A2642A493A0BD;
+			remoteInfo = "Pods-ParentalGate_Example";
+		};
+		41CA4990A3763DA3085BA7A03B6A58EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252ADC85D80EC4026805CC3323719C53;
+			remoteInfo = ParentalGate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1460A5A078EFDECF55A0EBEB54011763 /* Pods-ParentalGate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParentalGate_Example-dummy.m"; sourceTree = "<group>"; };
+		164FBFA635E82151AD16BB24CFFB2BAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C212BD97DA2774119AB399E8AE6B820 /* Pods-ParentalGate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParentalGate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1EBD1AF9A6BF89FDF27E6FF00F781EDE /* Pods-ParentalGate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParentalGate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2228822063B57291E4F75CC65A9B321C /* Pods_ParentalGate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParentalGate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554AFD90F1701038CA07C419D64EDF6 /* ParentalGate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParentalGate.release.xcconfig; sourceTree = "<group>"; };
+		434E70BE79B5668B18301372B5BB6BD3 /* ParentalGate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ParentalGate-Info.plist"; sourceTree = "<group>"; };
+		449F201ACB5B821852B99BAEFE51D189 /* ParentalGate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParentalGate-prefix.pch"; sourceTree = "<group>"; };
+		4E7EA2D1F9F8EC86765AF1DE364890D9 /* ParentalGate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParentalGate.debug.xcconfig; sourceTree = "<group>"; };
+		4EE72E6AC9A8BBD1D287C484AB146E04 /* Pods-ParentalGate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParentalGate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5140A0C700343A5E5AF42DA9D582C204 /* Pods-ParentalGate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParentalGate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		516ED379725B111554BB0837F5DEEBBE /* ParentalGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParentalGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC63E54D699E00E0A4C2796709E3F9E /* Pods-ParentalGate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParentalGate_Example.modulemap"; sourceTree = "<group>"; };
+		6C02275BD1A6AEA4FF6BB480CAFC67B1 /* Pods-ParentalGate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParentalGate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		838374E15B194A2A32C76CDAB79A1F45 /* Pods-ParentalGate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParentalGate_Example-umbrella.h"; sourceTree = "<group>"; };
+		8E1F34B3988B3F2B642BB66F01D0F793 /* Pods-ParentalGate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParentalGate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90056137DB21BAF080CE631EF6561EAD /* Pods-ParentalGate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParentalGate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		943BB83DA4EDC4642D4A39A899FBECAC /* ParentalGate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParentalGate-dummy.m"; sourceTree = "<group>"; };
+		97FA0E03AF604DB7B6A0CD1C21A11FEF /* ParentalGate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParentalGate-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B17C3C10F8AE506A940F85888A4D9894 /* Pods-ParentalGate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParentalGate_Example-Info.plist"; sourceTree = "<group>"; };
+		B5C055333F8B6937EDB9F16A4C2E8346 /* ParentalGate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParentalGate.modulemap; sourceTree = "<group>"; };
+		B5D7683454E385B111993F1A2A307525 /* Pods-ParentalGate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParentalGate_Tests.modulemap"; sourceTree = "<group>"; };
+		B6115D592E34AB3EC76F6C87DFCEF99F /* Pods-ParentalGate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParentalGate_Tests-Info.plist"; sourceTree = "<group>"; };
+		BDD9965A123CFBFB4699DA7FDCA6ED10 /* Pods-ParentalGate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParentalGate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDA248FA877EA2480B5DCBD423DDC1CF /* Pods-ParentalGate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParentalGate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E576793073AE46F16D489101B9B3186D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6290F370C0026865114359667D3AA85 /* Pods_ParentalGate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParentalGate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3B3E7D20C5CD420373B3F3C605EB3C /* ParentalGate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ParentalGate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3AB9F38A5A836292492A7CB3F2352AB /* Pods-ParentalGate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParentalGate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F506477CBCC02B18DDC750BDDBFFC578 /* Pods-ParentalGate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParentalGate_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6136B00AEF8BD66116DC76DA17430A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C4D5173E973321D221B0C43463F574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70FBD0F2D6A82B2E1BAB18622D12ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F236DD33278D64D5410ADA2D4B3C9BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8765A0B5AE761120677E17BEC379CD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3C788C1BA60677CCD62389419F1483 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BA20712671311000AF9922 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04BA20722671311900AF9922 /* Protocols */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04BA20722671311900AF9922 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		29D6563E1913D0C565DFD740D5B9608B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB2BEE663BDC4229E6CC6EEB785380E /* ParentalGate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		380A5D586183F8A45C8C66CFC54FC125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516ED379725B111554BB0837F5DEEBBE /* ParentalGate.framework */,
+				E6290F370C0026865114359667D3AA85 /* Pods_ParentalGate_Example.framework */,
+				2228822063B57291E4F75CC65A9B321C /* Pods_ParentalGate_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498B203C4AF982974D9529DFABFFB989 /* Pods-ParentalGate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5CC63E54D699E00E0A4C2796709E3F9E /* Pods-ParentalGate_Example.modulemap */,
+				8E1F34B3988B3F2B642BB66F01D0F793 /* Pods-ParentalGate_Example-acknowledgements.markdown */,
+				90056137DB21BAF080CE631EF6561EAD /* Pods-ParentalGate_Example-acknowledgements.plist */,
+				1460A5A078EFDECF55A0EBEB54011763 /* Pods-ParentalGate_Example-dummy.m */,
+				F3AB9F38A5A836292492A7CB3F2352AB /* Pods-ParentalGate_Example-frameworks.sh */,
+				B17C3C10F8AE506A940F85888A4D9894 /* Pods-ParentalGate_Example-Info.plist */,
+				838374E15B194A2A32C76CDAB79A1F45 /* Pods-ParentalGate_Example-umbrella.h */,
+				1EBD1AF9A6BF89FDF27E6FF00F781EDE /* Pods-ParentalGate_Example.debug.xcconfig */,
+				6C02275BD1A6AEA4FF6BB480CAFC67B1 /* Pods-ParentalGate_Example.release.xcconfig */,
+			);
+			name = "Pods-ParentalGate_Example";
+			path = "Target Support Files/Pods-ParentalGate_Example";
+			sourceTree = "<group>";
+		};
+		4DE88D46DA2187B3F14767DC077A3A0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C055333F8B6937EDB9F16A4C2E8346 /* ParentalGate.modulemap */,
+				943BB83DA4EDC4642D4A39A899FBECAC /* ParentalGate-dummy.m */,
+				434E70BE79B5668B18301372B5BB6BD3 /* ParentalGate-Info.plist */,
+				449F201ACB5B821852B99BAEFE51D189 /* ParentalGate-prefix.pch */,
+				97FA0E03AF604DB7B6A0CD1C21A11FEF /* ParentalGate-umbrella.h */,
+				4E7EA2D1F9F8EC86765AF1DE364890D9 /* ParentalGate.debug.xcconfig */,
+				2554AFD90F1701038CA07C419D64EDF6 /* ParentalGate.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ParentalGate";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6728857FDA5DA19927ECB10DE2DAF5F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				498B203C4AF982974D9529DFABFFB989 /* Pods-ParentalGate_Example */,
+				6A34755411E9A66B469112D8AF74F6EF /* Pods-ParentalGate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A34755411E9A66B469112D8AF74F6EF /* Pods-ParentalGate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7683454E385B111993F1A2A307525 /* Pods-ParentalGate_Tests.modulemap */,
+				5140A0C700343A5E5AF42DA9D582C204 /* Pods-ParentalGate_Tests-acknowledgements.markdown */,
+				BDD9965A123CFBFB4699DA7FDCA6ED10 /* Pods-ParentalGate_Tests-acknowledgements.plist */,
+				F506477CBCC02B18DDC750BDDBFFC578 /* Pods-ParentalGate_Tests-dummy.m */,
+				B6115D592E34AB3EC76F6C87DFCEF99F /* Pods-ParentalGate_Tests-Info.plist */,
+				1C212BD97DA2774119AB399E8AE6B820 /* Pods-ParentalGate_Tests-umbrella.h */,
+				4EE72E6AC9A8BBD1D287C484AB146E04 /* Pods-ParentalGate_Tests.debug.xcconfig */,
+				CDA248FA877EA2480B5DCBD423DDC1CF /* Pods-ParentalGate_Tests.release.xcconfig */,
+			);
+			name = "Pods-ParentalGate_Tests";
+			path = "Target Support Files/Pods-ParentalGate_Tests";
+			sourceTree = "<group>";
+		};
+		CAB2BEE663BDC4229E6CC6EEB785380E /* ParentalGate */ = {
+			isa = PBXGroup;
+			children = (
+				04BA20712671311000AF9922 /* Sources */,
+				FDDA88EDCBBF96DF82DB4E3B72CB29E7 /* Pod */,
+				4DE88D46DA2187B3F14767DC077A3A0C /* Support Files */,
+			);
+			name = ParentalGate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				29D6563E1913D0C565DFD740D5B9608B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				380A5D586183F8A45C8C66CFC54FC125 /* Products */,
+				6728857FDA5DA19927ECB10DE2DAF5F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDA88EDCBBF96DF82DB4E3B72CB29E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				164FBFA635E82151AD16BB24CFFB2BAD /* LICENSE */,
+				EB3B3E7D20C5CD420373B3F3C605EB3C /* ParentalGate.podspec */,
+				E576793073AE46F16D489101B9B3186D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A3F9A9694C1D5AE50A14898BE0C715A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B4AF5B7DA008021D5572F0B11013FC /* Pods-ParentalGate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB65A68FE285950940DD407FB670352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C865C1B07BD0DC12C6C7610B28449E /* ParentalGate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8156634E57706902010BF6E307CEA3B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3776DB6FA026141351D978BCD36F2949 /* Pods-ParentalGate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		252ADC85D80EC4026805CC3323719C53 /* ParentalGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB124390811CD0DA805C7283F2BFF73B /* Build configuration list for PBXNativeTarget "ParentalGate" */;
+			buildPhases = (
+				4DB65A68FE285950940DD407FB670352 /* Headers */,
+				E307D7A01A5570E13E19E3EB75357A50 /* Sources */,
+				6136B00AEF8BD66116DC76DA17430A9C /* Frameworks */,
+				4770ABEF368A877AE66E46EC79C5F3B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParentalGate;
+			productName = ParentalGate;
+			productReference = 516ED379725B111554BB0837F5DEEBBE /* ParentalGate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46E79398FBCE9F2A32A2AA1DC9FF4E43 /* Pods-ParentalGate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E0640B262986455E2B81FC251D6410 /* Build configuration list for PBXNativeTarget "Pods-ParentalGate_Tests" */;
+			buildPhases = (
+				3A3F9A9694C1D5AE50A14898BE0C715A /* Headers */,
+				AF445073E3F17EE4FFF5219FDD349982 /* Sources */,
+				70FBD0F2D6A82B2E1BAB18622D12ECB7 /* Frameworks */,
+				B0830DBABAE968EB82FC23FF1E548CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BC669429CA24D6F592CF6FEFFABBA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParentalGate_Tests";
+			productName = "Pods-ParentalGate_Tests";
+			productReference = 2228822063B57291E4F75CC65A9B321C /* Pods_ParentalGate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9AEACF7C61194180A2A2642A493A0BD /* Pods-ParentalGate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E704BFB3ED127406CA66D8E013D9FCAB /* Build configuration list for PBXNativeTarget "Pods-ParentalGate_Example" */;
+			buildPhases = (
+				8156634E57706902010BF6E307CEA3B7 /* Headers */,
+				EC0180FA8DD25FAB4060CEBB2C2220F7 /* Sources */,
+				8765A0B5AE761120677E17BEC379CD74 /* Frameworks */,
+				49E8B71EE3BE3DD51F138FDE4D632BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95106689807DC2AB1F44D8CB06F1BF18 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParentalGate_Example";
+			productName = "Pods-ParentalGate_Example";
+			productReference = E6290F370C0026865114359667D3AA85 /* Pods_ParentalGate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 380A5D586183F8A45C8C66CFC54FC125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252ADC85D80EC4026805CC3323719C53 /* ParentalGate */,
+				D9AEACF7C61194180A2A2642A493A0BD /* Pods-ParentalGate_Example */,
+				46E79398FBCE9F2A32A2AA1DC9FF4E43 /* Pods-ParentalGate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4770ABEF368A877AE66E46EC79C5F3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E8B71EE3BE3DD51F138FDE4D632BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0830DBABAE968EB82FC23FF1E548CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF445073E3F17EE4FFF5219FDD349982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40961979CD69CAC8713126CE08F1438D /* Pods-ParentalGate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307D7A01A5570E13E19E3EB75357A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AFD30544DA35B6614253DCDF5E0C5C /* ParentalGate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0180FA8DD25FAB4060CEBB2C2220F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B04C73B371E17B0080F638789060100 /* Pods-ParentalGate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95106689807DC2AB1F44D8CB06F1BF18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParentalGate;
+			target = 252ADC85D80EC4026805CC3323719C53 /* ParentalGate */;
+			targetProxy = 41CA4990A3763DA3085BA7A03B6A58EB /* PBXContainerItemProxy */;
+		};
+		E6BC669429CA24D6F592CF6FEFFABBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ParentalGate_Example";
+			target = D9AEACF7C61194180A2A2642A493A0BD /* Pods-ParentalGate_Example */;
+			targetProxy = 229F5FA386E69C3D1F6AAE28F8C3D378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2690E6A2E6570A3174158823F61D480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C02275BD1A6AEA4FF6BB480CAFC67B1 /* Pods-ParentalGate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParentalGate_Example/Pods-ParentalGate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParentalGate_Example/Pods-ParentalGate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		346B2041B4D066D210500187B0112262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7EA2D1F9F8EC86765AF1DE364890D9 /* ParentalGate.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParentalGate/ParentalGate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParentalGate/ParentalGate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParentalGate/ParentalGate.modulemap";
+				PRODUCT_MODULE_NAME = ParentalGate;
+				PRODUCT_NAME = ParentalGate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C471939D7FD7AC82AB3CD2CB67E8648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBD1AF9A6BF89FDF27E6FF00F781EDE /* Pods-ParentalGate_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParentalGate_Example/Pods-ParentalGate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParentalGate_Example/Pods-ParentalGate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D41B1B03B3695CF82758F686C715EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA248FA877EA2480B5DCBD423DDC1CF /* Pods-ParentalGate_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParentalGate_Tests/Pods-ParentalGate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParentalGate_Tests/Pods-ParentalGate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93233F71B8DB78D625B96B45DFE860A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE72E6AC9A8BBD1D287C484AB146E04 /* Pods-ParentalGate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParentalGate_Tests/Pods-ParentalGate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParentalGate_Tests/Pods-ParentalGate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F266CD51897F9A4352F7F63FA1BE3057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2554AFD90F1701038CA07C419D64EDF6 /* ParentalGate.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParentalGate/ParentalGate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParentalGate/ParentalGate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParentalGate/ParentalGate.modulemap";
+				PRODUCT_MODULE_NAME = ParentalGate;
+				PRODUCT_NAME = ParentalGate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E0640B262986455E2B81FC251D6410 /* Build configuration list for PBXNativeTarget "Pods-ParentalGate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93233F71B8DB78D625B96B45DFE860A4 /* Debug */,
+				8D41B1B03B3695CF82758F686C715EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB124390811CD0DA805C7283F2BFF73B /* Build configuration list for PBXNativeTarget "ParentalGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346B2041B4D066D210500187B0112262 /* Debug */,
+				F266CD51897F9A4352F7F63FA1BE3057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E704BFB3ED127406CA66D8E013D9FCAB /* Build configuration list for PBXNativeTarget "Pods-ParentalGate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C471939D7FD7AC82AB3CD2CB67E8648 /* Debug */,
+				2690E6A2E6570A3174158823F61D480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

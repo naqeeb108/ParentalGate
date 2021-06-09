@@ -1,0 +1,16 @@
+PODS:
+  - ParentalGate (0.1.0)
+
+DEPENDENCIES:
+  - ParentalGate (from `../`)
+
+EXTERNAL SOURCES:
+  ParentalGate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ParentalGate: 903e0da07fda0442041688eae2e29188f59707a0
+
+PODFILE CHECKSUM: c0242586c48a3881bbbe587f441af9ab5ad78f6e
+
+COCOAPODS: 1.10.1
